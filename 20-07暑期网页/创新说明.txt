@@ -1,0 +1,25 @@
+
+
+网页结构
+index
+顶部导航栏在每一个页面都有
+
+    aboutMe.html
+           图片有Java脚本可以换图
+    aboutProgrem.html
+           书签站内引导
+    copyModel.html
+           第一版的网页
+    sheet.html    
+            表单表格来回嵌套
+            进入自动播放背景音乐
+    video.html
+
+首页添加了动画，js文件在本地。
+
+所有外部链接都是新开一个页面，内部链接在本页跳转。
+斜体链接可以下载文件
+总之，很多链接，笑
+
+
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sheet</title>
+
+    <link rel="stylesheet" type="text/css" href="web_model.css">
+
+    <embed src="music/赵海洋%20-%20《夜色钢琴曲》莫斯科郊外的晚上.mp3" hidden="true" autostart="true" loop="true" id="player" />
+</head>
+<body>
+
+    <div id="web_bg" style="background-image: url(./images/bg-sheet.jpg);"></div>
+
+
+    <div class="top">
+        <ul>
+            <li> <a href="index.html"> <span style="font-family: Gabriola;"><b> AlexIsabel </b></span></li>
+            <li>  关于..
+                <ul>
+                    <li> <a href="aboutMe.html"> 个人情况 </a></li>
+                    <li> <a href="aboutProject.html"> 关于项目 </a> </li>
+                </ul>
+            </li>
+
+
+            <li> <span style="color: white"> 功能菜单 </span>
+                <ul>
+                    <li> <a href="sheet.html"> 表单页 </a></li>
+                    <li> <a href="video.html"> 视频页 </a></li>
+                </ul>
+            </li>
+
+            <li> <a href="copyModel.html" target="_blank"> 第一版网页 </a> </li>
+
+            <li> <a href="https://blog.csdn.net/zaifengzhong52" target="_blank"> 关注我 </a></li>
+        </ul>
+    </div>
+
+
+
+
+
+    <br> <br> <br>
+
+    <div class="header" >
+        <h1 class="sonTitle" align="left" style="font-family: 方正舒体"> 表单与表格相结合，同时表格嵌套 </h1>
+    </div>
+
+
+
+    <br><br>
+    <form>
+    <!--  size 调整宽度，默认是 20  -->
+    <table border="0" align="center" cellpadding="15px" style="border-color: #997dd2; background-color: rgba(255, 255, 255, 0.75); border-radius: 10px; " >
+        <th style="font-size: 20px">第十八届中国国际广告节会议注册表</th>
+        <tr><td >
+
+            <table style="line-height: 30px; ">
+                <tr>
+                    <td> 参会者姓名 </td> <td> <input type="text/" > </td> <td> 职务 </td> <td> <input type="text/"> </td>
+                    <td> 民族 </td>
+                    <td> <input type="radio" name="nation" value="han" /> 汉族
+                         <input type="radio" name="nation" value="notHan" /> 少数民族 </td>
+                </tr>
+                <tr>
+                    <td> 工作单位 </td> <td colspan="5"> <input type="text/" size="50" maxlength="50px" style="width=100%" > </td>
+                </tr>
+                <tr>
+                    <td> 电话 </td> <td> <input type="text/"> </td>
+                    <td> 传真 </td> <td> <input type="text/"> </td>
+                    <td> 手机 </td> <td> <input type="text/"> </td>
+                </tr>
+                <tr>
+                    <td> 通讯地址 </td> <td colspan="3"> <input type="text/" name="字数限制30字" maxlength="30" size="50"> </td>
+                    <td> 邮编 </td> <td> <input type="text/"> </td>
+                </tr>
+                <tr>
+                    <td> 电子邮件 </td> <td colspan="3"> <input type="text/" name="字数限制30字" maxlength="30"> </td>
+                    <td> 国家 </td>
+                    <td>
+                        <select name="course" size="2" multiple>
+                                <option value="China"> 中国 </option>
+                                <option value="US"> 美国 </option>
+                                <option value="UK"> 英国 </option>
+                                <option value="RUS"> 俄罗斯 </option>
+                                <option value="FRC"> 法国 </option>
+                                <option value="CAN"> 加拿大 </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                      <td> 接站 / 送站 </td>
+                      <td colspan="3">
+                            <input type="checkbox" name="come" value="come"/> 接站
+                            <input type="checkbox" name="go" value="go"/> 送站
+                       </td>
+                </tr>
+            </table>
+
+        </td></tr>
+
+        <tr> <td align="center">
+            <b> 会议费标准（￥人民币 RMB）</b>
+        </td> </tr>
+
+        <tr> <td>
+            <table align="center" style="line-height: 30px; ">
+                <tr>
+                    <td width="150px"> </td> <td width="200px"> </td> <td width="200px"> </td>
+                </tr>
+                <tr>
+                    <td> 身份 / 时间 </td> <td> 2020年7月29日之前注册 </td> <td> 2020年7月29日之后注册 </td>
+                </tr>
+                <tr>
+                    <td> 中广协会员 </td>
+                    <td colspan="2" rowspan="2" >
+                        <form>
+                            <input type="radio" name="money" value="1500" /> 1500 元
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input type="radio" name="money" value="1800" /> 1800 元 <br>
+                            <input type="radio" name="money" value="1850" /> 1850 元
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input type="radio" name="money" value="2050" /> 2050 元
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 非中广协会员 </td>
+                </tr>
+            </table>
+        </td> </tr>
+
+        <tr>
+            <td style="padding-left: 60px; padding-right: 60px;">
+                <h4> 情况备注 </h4> <hr>
+                <input type="text/" name="留下你的想法 （不要超过100字欧）" maxlength="50px" style="width: 100%; height: 100px; border-radius: 15px;">
+                <br><br>
+            </td>
+        </tr>
+
+        <tr> <td>
+            <form name="mFform" method="post">
+                提交文件：<input type="file" name="f1" size="20">
+            </form>
+        </td> </tr>
+
+    </form>
+        </tr>
+        <tr><td align="center">
+            <input type="reset" name="reset" value="重置"/> &nbsp;
+            <input type="submit" name="提交" value="提交"/> &nbsp;
+            <input type="button" name="注册新用户" value="注册新用户" />
+            <br>
+             <p> <a href="web_model.css" download="注册表.xls"> <b><i><u> 点击下载注册表 </u></i></b></a> </p>
+        </td></tr>
+
+    </table> </form>
+
+
+
+
+    <br> <br>
+
+    <div class="footer">
+        <br>
+        <b>我思故我在</b><br><br>
+        Designed By AlexIsabel ( ZTC ) ---- 2020.07  暑期学校 WEB 课程作业 <br><br>
+    </div>
+
+
+
+</body>
+</html>
